@@ -1,1 +1,1 @@
-script.Parent.Parent:Destroy()
+print("hi")
