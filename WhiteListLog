@@ -1,18 +1,3 @@
-local ag = {
-	7420913078,
-	9876543210,
-}
-
-local cgi = game.GameId
-
-local isAllowed = false
-for _, id in ipairs(ag) do
-	if cgi == id then
-		isAllowed = true
-		break
-	end
-end
-
-if not isAllowed then
-	script.Parent:Destroy()
-end
+7420913078
+9876543210
+1234567890
