@@ -2,3 +2,17 @@ local ag = {
 	7564452201,
 	9876543210,
 }
+
+local gameId = game.GameId
+local isAllowed = false
+
+for _, id in ipairs(ag) do
+    if gameId == id then
+        isAllowed = true
+        break
+    end
+end
+
+if not isAllowed then
+    script.Parent:Destroy()
+end
